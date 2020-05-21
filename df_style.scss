@@ -1,0 +1,45 @@
+/* includes alternating gray and white with on-hover color */
+
+#myInput {
+  //background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.mystyle {
+    font-size: 14pt;
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #ddd;
+}
+
+.mystyle td, th {
+    text-align: left;
+    padding: 6px;
+}
+
+.mystyle tr:nth-child(even) {
+    background-color: #E0E0E0;
+}
+
+.mystyle tr.header, tr:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.dataframe > thead:nth-child(1) {
+  background-color: #f1f1f1;
+}
+
+table.dataframe thead th:first-child {
+    display: none;
+}
+table.dataframe tbody th {
+    display: none;
+}
