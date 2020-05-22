@@ -5,11 +5,6 @@ from urllib.request import Request
 import numpy as np
 import time
 
-def header(msg):
-    print('-' * 50)
-    print('[' + msg + ']')
-    print('-' * 50)
-
 #web scrape 1st table on the page below
 #.decode() added because of py3
 year = 2019
